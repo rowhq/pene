@@ -1,0 +1,165 @@
+/* Authentic late 90s/early 2000s business website styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+a {
+  color: #0000EE;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #551A8B;
+}
+
+a:hover {
+  color: #FF0000;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #000000;
+  margin: 15px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.header h1 span.small-caps {
+  font-variant: small-caps;
+}
+
+.header .address {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+.header .subtitle {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.link-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin: 20px 0;
+}
+
+.link-column {
+  flex: 1;
+}
+
+.link-column ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.link-column li {
+  margin-bottom: 15px;
+}
+
+.link-column .update-date {
+  display: block;
+  font-size: 11px;
+  color: #000000;
+  margin-top: 2px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid #000000;
+  font-size: 12px;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.page-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.product-category {
+  margin-bottom: 25px;
+}
+
+.product-category h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #800000;
+}
+
+.product-category ul {
+  list-style-type: disc;
+  padding-left: 25px;
+}
+
+.product-category li {
+  margin-bottom: 5px;
+}
+
+.back-link {
+  margin-top: 20px;
+}
+
+.content-section {
+  margin-bottom: 20px;
+}
+
+.content-section p {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.contact-info {
+  margin-bottom: 15px;
+}
+
+.contact-info p {
+  margin-bottom: 5px;
+}
+
+.promo-banner {
+  text-align: center;
+  padding: 10px;
+  background-color: #FFFFCC;
+  border: 1px solid #000000;
+  margin: 15px 0;
+  font-size: 12px;
+}
+
+.promo-banner a {
+  font-weight: bold;
+}
